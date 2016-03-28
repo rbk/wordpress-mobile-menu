@@ -1,0 +1,171 @@
+{
+	"IcoMoonType": "selection",
+	"icons": [
+		{
+			"icon": {
+				"paths": [
+					"M1024 608l-192-192v-288h-128v160l-192-192-512 512v32h128v320h320v-192h128v192h320v-320h128z"
+				],
+				"attrs": [],
+				"tags": [
+					"home",
+					"house"
+				],
+				"grid": 16
+			},
+			"attrs": [],
+			"properties": {
+				"id": 52,
+				"order": 1,
+				"prevSize": 32,
+				"ligatures": "home3, house3",
+				"name": "rbk-home-icon",
+				"code": 58880
+			},
+			"setIdx": 0,
+			"setId": 0,
+			"iconIdx": 2
+		},
+		{
+			"icon": {
+				"paths": [
+					"M704 640c-64 64-64 128-128 128s-128-64-192-128-128-128-128-192 64-64 128-128-128-256-192-256-192 192-192 192c0 128 131.5 387.5 256 512s384 256 512 256c0 0 192-128 192-192s-192-256-256-192z"
+				],
+				"attrs": [],
+				"tags": [
+					"phone",
+					"telephone",
+					"contact",
+					"support",
+					"call"
+				],
+				"grid": 16
+			},
+			"attrs": [],
+			"properties": {
+				"order": 3,
+				"id": 1783,
+				"prevSize": 32,
+				"ligatures": "phone, telephone",
+				"name": "rbk-phone-icon",
+				"code": 58881
+			},
+			"setIdx": 0,
+			"setId": 0,
+			"iconIdx": 66
+		},
+		{
+			"icon": {
+				"paths": [
+					"M64 192h896v192h-896zM64 448h896v192h-896zM64 704h896v192h-896z"
+				],
+				"attrs": [],
+				"tags": [
+					"menu",
+					"list",
+					"options",
+					"lines",
+					"hamburger"
+				],
+				"grid": 16
+			},
+			"attrs": [],
+			"properties": {
+				"order": 6,
+				"id": 1448,
+				"prevSize": 32,
+				"ligatures": "menu, list3",
+				"name": "rbk-menu-icon",
+				"code": 58882
+			},
+			"setIdx": 0,
+			"setId": 0,
+			"iconIdx": 189
+		},
+		{
+			"icon": {
+				"paths": [
+					"M512 0c-282.77 0-512 229.23-512 512s229.23 512 512 512 512-229.23 512-512-229.23-512-512-512zM512 928c-229.75 0-416-186.25-416-416s186.25-416 416-416 416 186.25 416 416-186.25 416-416 416z",
+					"M672 256l-160 160-160-160-96 96 160 160-160 160 96 96 160-160 160 160 96-96-160-160 160-160z"
+				],
+				"attrs": [],
+				"tags": [
+					"cancel-circle",
+					"close",
+					"remove",
+					"delete"
+				],
+				"grid": 16
+			},
+			"attrs": [],
+			"properties": {
+				"id": 23,
+				"order": 5,
+				"prevSize": 32,
+				"ligatures": "cancel-circle, close",
+				"name": "rbk-close-menu-icon",
+				"code": 58883
+			},
+			"setIdx": 0,
+			"setId": 0,
+			"iconIdx": 269
+		},
+		{
+			"icon": {
+				"paths": [
+					"M1009.376 5.12c-5.312-3.424-11.36-5.12-17.376-5.12-6.176 0-12.384 1.76-17.76 5.376l-960 640c-9.888 6.56-15.328 18.112-14.048 29.952 1.216 11.808 8.896 22.016 19.936 26.368l250.368 100.192 117.728 206.016c5.632 9.888 16.096 16 27.424 16.128 0.128 0 0.224 0 0.352 0 11.232 0 21.664-5.952 27.424-15.552l66.464-110.816 310.24 124.064c3.808 1.536 7.808 2.272 11.872 2.272 5.44 0 10.816-1.376 15.68-4.128 8.448-4.736 14.24-13.056 15.872-22.624l160-960c2.080-12.576-3.488-25.184-14.176-32.128zM100.352 664.864l741.6-494.432-539.2 577.184c-2.848-1.696-5.376-3.936-8.512-5.184l-193.888-77.568zM326.048 770.112c-0.064-0.128-0.16-0.192-0.224-0.32l606.176-648.8-516.768 805.184-89.184-156.064zM806.944 947.488l-273.312-109.312c-6.496-2.56-13.248-3.424-19.936-3.808l420.864-652.416-127.616 765.536z"
+				],
+				"attrs": [],
+				"tags": [
+					"paperplane",
+					"send",
+					"flight",
+					"email"
+				],
+				"grid": 32
+			},
+			"attrs": [],
+			"properties": {
+				"id": 30,
+				"order": 7,
+				"prevSize": 32,
+				"code": 58884,
+				"name": "rbk-mail-icon"
+			},
+			"setIdx": 1,
+			"setId": 1,
+			"iconIdx": 30
+		}
+	],
+	"height": 1024,
+	"metadata": {
+		"name": "icomoon"
+	},
+	"preferences": {
+		"showGlyphs": true,
+		"showQuickUse": true,
+		"showQuickUse2": true,
+		"showSVGs": true,
+		"fontPref": {
+			"prefix": "icon-",
+			"metadata": {
+				"fontFamily": "icomoon"
+			},
+			"metrics": {
+				"emSize": 1024,
+				"baseline": 6.25,
+				"whitespace": 50
+			},
+			"embed": false
+		},
+		"imagePref": {
+			"prefix": "icon-",
+			"png": true,
+			"useClassSelector": true,
+			"color": 4473924,
+			"bgColor": 16777215
+		},
+		"historySize": 100,
+		"showCodes": false
+	}
+}

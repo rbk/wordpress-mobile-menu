@@ -45,6 +45,7 @@ class Rbk_Mobile_Menu {
 		}
 		wp_enqueue_script( 'rbk_color_picker', plugins_url( 'js/rbk_mobile_menu.js', __FILE__ ), array( 'jquery', 'wp-color-picker' ), '', true  );
 		wp_enqueue_style('rbk-menu-style', plugins_url('css/main.css',__FILE__) );
+		wp_enqueue_style('rbk-icon-font-style', plugins_url('rbk_menu_icons/rbk-font-style.css',__FILE__) );
 	}
 
 	public function rbk_mobile_menu_options_page( ){

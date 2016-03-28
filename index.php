@@ -4,10 +4,8 @@
 Plugin name: Mobile Menu
 Author: Richard Keller
 URI:
-Version: 1.0
-Description: Mobile menu
-
-Add menu select
+Version: 1
+Description:
 
 */
 require_once('rbk-mobile-menu-output.php');
@@ -27,9 +25,15 @@ if( is_admin() ){
 
 function rbk_append_style( ){
 	wp_enqueue_style('rbk-menu-style', plugins_url('css/main.css',__FILE__) );
-	wp_enqueue_script( 'rbk-menu-javascript', plugins_url('js/menu.js',__FILE__), array('jquery'), 1, true );
+	wp_enqueue_style('rbk-icon-font-style', plugins_url('rbk_menu_icons/rbk-font-style.css',__FILE__) );
 }
 add_action( 'wp_head', 'rbk_append_style' );
+
+
+function rbk_enqueue_menu_js( ) {
+	wp_enqueue_script( 'rbk-menu-javascript', plugins_url('js/menu.js',__FILE__), array('jquery'), 1.0, true );
+}
+add_action( 'wp_enqueue_scripts', 'rbk_enqueue_menu_js' );
 
 
 ?>
